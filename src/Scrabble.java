@@ -47,7 +47,6 @@ public class Scrabble {
 	public int scrabbleScore(String word){
 		int sum = 0;
         for(int i = 0; i <word.length();i++) {
-            //look up the current char in the alphabet and add it's value to sum
             sum += alphabet.get(word.charAt(i));
         }
         return sum;

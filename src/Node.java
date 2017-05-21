@@ -1,8 +1,7 @@
 import java.util.HashMap;
 
 /**
- * Node class for the trie
- *
+ * Node class used in the Trie
  */
 public class Node{
 		char c;
